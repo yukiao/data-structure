@@ -10,13 +10,21 @@ _Implementation of hash table using Typescript_
 
 ### How to test this program
 
-    *Make sure you have install nodejs and typescript compiler*
+    Make sure you have install nodejs and typescript compiler
 
 1. Clone this repostory
-   ```git clone https://github.com/yukiao/data-structure.git```
+   ```
+   git clone https://github.com/yukiao/data-structure.git
+   ```
 2. Change to directory
-   ```cd Typescript/Hash-Table```
+   ```
+   cd Typescript/Hash-Table
+   ```
 3. Compile the ts file
-   ```tsc```
+   ```
+   tsc
+   ```
 4. Run the .js file
-   ```node dist/HashTable.js```
+   ```
+   node dist/HashTable.js
+   ```
