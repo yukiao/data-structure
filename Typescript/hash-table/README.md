@@ -18,7 +18,7 @@ _Implementation of hash table using Typescript_
    ```
 2. Change to directory
    ```
-   cd Typescript/Hash-Table
+   cd Typescript/hash-table
    ```
 3. Compile the ts file
    ```
