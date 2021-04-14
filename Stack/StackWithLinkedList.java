@@ -90,10 +90,10 @@ class StackWithLinkedList{
         sLinkedList.push(1);
         sLinkedList.push(2);
         sLinkedList.push(3);
+        sLinkedList.push(5);
         sLinkedList.pop();
-        sLinkedList.pop();
-        sLinkedList.pop();
-        sLinkedList.pop();
+        sLinkedList.push(4);
+        sLinkedList.display();
         sLinkedList.pop();
         sLinkedList.display();
     }

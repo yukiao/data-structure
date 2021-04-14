@@ -107,8 +107,8 @@ public class QueueWithLinkedList {
 
     public static void main(String [] args){
         QueueWithLinkedList qList = new QueueWithLinkedList();
-        qList.enqueue(1);
         qList.enqueue(2);
+        qList.enqueue(1);
         qList.enqueue(3);
         qList.enqueue(4);
         qList.enqueue(5);
@@ -119,15 +119,9 @@ public class QueueWithLinkedList {
         qList.enqueue(10);
         qList.dequeue();
         qList.dequeue();
-        qList.dequeue();
-        qList.dequeue();
-        qList.dequeue();
-        qList.dequeue();
-        qList.dequeue();
-        qList.dequeue();
-        qList.dequeue();
-        qList.dequeue();
-        qList.dequeue();
+        qList.enqueue(
+            11
+        );
         qList.display();
     }
 }
